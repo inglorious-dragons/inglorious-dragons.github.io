@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'copperplatebold';
+    src: url('copperplate_bold-webfont.woff2') format('woff2'),
+         url('copperplate_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "copperplate_bold-webfont", serif;
+}
+
+.sidebar-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height: auto;
+}
