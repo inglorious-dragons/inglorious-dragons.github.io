@@ -26,6 +26,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  akoa_videos:
+    output: true
+    sort_by: date
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

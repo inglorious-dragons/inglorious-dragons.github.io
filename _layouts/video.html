@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="content">
+    <div class="row">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <p>{{ page.date | date_to_string }}</p>
+        <div class="col">{{page.embed}}</div>   
+        <div class="col">
+            <p>{{ content }}</p>
+        </div> 
+    </div>
+</div>
+

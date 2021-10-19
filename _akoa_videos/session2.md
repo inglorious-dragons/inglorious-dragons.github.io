@@ -1,0 +1,9 @@
+---
+layout: video
+title: Session 2
+yt_id: tDAwnI0Geew
+date: 29/08/2021
+embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/tDAwnI0Geew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+---
+Session 2
+
