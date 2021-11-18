@@ -15,6 +15,16 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Gideon Roman", serif;
   font-weight: 900;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.nav-item{
+  font-family: "Gideon Roman", serif;
+  font-weight: 700;
+}
+active{
+  text-decoration: underline;
+}
 
 .nav-logo{
     display: block;

@@ -6,22 +6,7 @@ layout: home
 ---
 <div class="container">
     <div class="row">
-        <div class="col">
-            <h1>Latest Videos</h1>
-            <ul>
-            {% for vid in site.akoa_videos reversed %}
-            <li>
-                <div class="col-md-auto">
-                    <div class="row">
-                    <a href="{{ vid.url | relative_url }}">{{ vid.title }}</a>
-                    {{vid.embed}}
-                    </div>
-                </div>
-            </li>
-            {% endfor %}
-            </ul>
-        </div>
-        <div class="col">
+    <div class="col">
             <h1>Welcome</h1>
             <p>
                 Hello Everyone and welcome to a Kingdom of Ashes here on Inglorious Dragons
@@ -31,5 +16,22 @@ If you love table top roleplaying games then come and see how we play dungeons a
 We are just a group of like minded friends who love to create epic D&D stories and have an ongoing D&D campaign.
             </p>
         </div>
+        <div class="col">
+            <h1>Latest Videos</h1>
+            <ul>
+
+            {% assign rev_vids = site.akoa_videos | reverse %}
+            {% for vid in rev_vids limit:5 %}
+                <li>
+                    <div class="col-md-auto">
+                        <div class="row">
+                        <a href="{{ vid.url | relative_url }}">{{ vid.title }}</a>
+                        {{vid.embed}}
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>        
     </div>
 </div>

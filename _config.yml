@@ -26,8 +26,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
+navigation:
+  - title: home
+    url: /
+  - title: videos
+    url: /videos
+
 collections:
   akoa_videos:
+    output: true
+    sort_by: date
+  akoa_journal:
     output: true
     sort_by: date
 
