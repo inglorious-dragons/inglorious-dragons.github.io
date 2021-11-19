@@ -15,6 +15,47 @@ If you love table top roleplaying games then come and see how we play dungeons a
 <br />
 We are just a group of like minded friends who love to create epic D&D stories and have an ongoing D&D campaign.
             </p>
+            <h1>Where to find us</h1>
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-twitch"></i> Twitch
+                </div>
+                <div class="col-9">
+                    <a href="{{site.twitch_url}}">{{site.twitch_url}}</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-youtube"></i> Youtube
+                </div>
+                <div class="col-9">
+                    <a href="{{site.youtube_url}}">Inglorious dragons channel</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-twitter"></i> Twitter
+                </div>
+                <div class="col-9">
+                    <a href="{{site.twitter_username}}">{{site.twitter_url}}</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-instagram"></i> Instagram
+                </div>
+                <div class="col-9">
+                    <a href="{{site.instagram_url}}">{{site.instagram_url}}</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-cart3"></i> Merch shop
+                </div>
+                <div class="col-9">
+                    <a href="https://store.streamelements.com/inglorious_dragons">https://store.streamelements.com/inglorious_dragons</a>
+                </div>
+            </div>
         </div>
         <div class="col">
             <h1>Latest Videos</h1>
