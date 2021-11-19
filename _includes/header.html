@@ -18,8 +18,9 @@
             <ul class="nav navbar-nav mr-auto">
                 {% for item in site.navigation %}
                     {% assign current = page.url | downcase | split: '/' %}
+                    {{current[1] | remove: ".html"}}
                     {% assign class = nil %}
-                    {% if current[1] == {{ item.title }} %}
+                    {% if current[1]  | remove: ".html" == {{ item.title }} %}
                         {% assign class = 'active' %}
                     {% endif %}
                     <li class="nav-item {{class}}">

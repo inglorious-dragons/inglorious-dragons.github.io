@@ -31,6 +31,8 @@ navigation:
     url: /
   - title: videos
     url: /videos
+  - title: merch
+    url: https://merch.streamelements.com/inglorious_dragons
 
 collections:
   akoa_videos:
